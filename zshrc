@@ -1,6 +1,7 @@
 alias vi='nvim'
 alias vim='nvim'
-export EDITOR="nvim"
+export EDITOR='nvim'
+export DISABLE_SPRING=true
 
 # custon prompt
 export PS1="🍹/%1d$"
@@ -22,6 +23,4 @@ export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --preview '(highlight -O 
 bindkey -s '^p' 'vi $(fzf)\n'
 
 . /usr/local/opt/asdf/asdf.sh
-export PATH="/Users/wijinlau/.asdf/installs/nodejs/13.12.0/.npm/bin:$PATH"
 
-eval $(thefuck --alias)
